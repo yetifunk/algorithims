@@ -6,11 +6,11 @@ for (let i = 1; i <= 100; i++) {
     } else if (i % 5 === 0) {
         console.log("Buzz");
     } else if (i % 3 === 0) {
-        console.log("Fizz") ;
+        console.log("Fizz");
     } else {
         console.log(i);
     };
-};
+}; 
 
 ////Second Solution
 
@@ -23,5 +23,5 @@ for (let i = 1; i < 101; i++) {
         console.log("Buzz");
     } else {
         console.log(i);
-    }
-}   
+    };
+};
