@@ -1,5 +1,8 @@
 // Reverse a string
 
+var sentance = "Put my thang down flip it and reverse it";
+console.log(sentance.split(/\s/).reverse().join(" "));
+
 // Reverse a sentence ("bob likes dogs" -> "dogs likes bob")
 
 // Find the minimum value in a list
