@@ -9,6 +9,8 @@ var sentance = "Put my thang down flip it and reverse it";
 console.log(sentance.split(/\s/).reverse().join(" "));
 
 // Find the minimum value in a list
+const nums = [5, 2, 3, 1, 8, 9]
+console.log(Math.min(...nums))
 
 // Find the maximum value in a list
 
