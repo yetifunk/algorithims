@@ -17,6 +17,10 @@ const nums2 = [5, 2, 3, 1, 8, 9, 12, 22]
 console.log(Math.max(...nums2))
 
 // Calculate a remainder (given a numerator and denominator)
+function remainder(x, y) {
+    console.log(x % y)
+};
+remainder(12,5)
 
 // Return distinct values from a list including duplicates (i.e. "1 3 5 3 7 3 1 1 5" -> "1 3 5 7")
 
