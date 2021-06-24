@@ -37,5 +37,11 @@ console.log(large(2))
 console.log(large(-2))
 console.log(large(0))
 
+const lrg = n => n >= 0? Number("9".repeat(n)): Number(`.${"9".repeat(Math.abs(n))}`);
+
+console.log(lrg(3))
+console.log(lrg(-3))
+console.log(lrg(0))
+
 
 
