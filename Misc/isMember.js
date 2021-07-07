@@ -6,6 +6,9 @@
 // -- 1. Array of strings
 // -- 2. String
 
+
+////Original Approach
+
 // function isMember(arr, str) {
 // 	if (arr.includes(str)) {
 //         return true
@@ -13,6 +16,9 @@
 //         return false
 //     }
 // }
+
+
+////Changed function to work with bonus "wildcard" characters
 
 function isMember(arr, str) {
     for (let i = 0; i < arr.length; i++) {
